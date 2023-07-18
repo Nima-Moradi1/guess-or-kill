@@ -49,7 +49,7 @@ export default function Keyboard({
       style={{
         display: "grid",
         gridTemplateColumns: "repeat(auto-fit, minmax(30px, 1fr))",
-        gap: ".2rem",
+        gap: ".25rem",
         textAlign:"center"
       }}
     >
