@@ -49,7 +49,8 @@ export default function Keyboard({
       style={{
         display: "grid",
         gridTemplateColumns: "repeat(auto-fit, minmax(30px, 1fr))",
-        gap: ".4rem",
+        gap: ".2rem",
+        textAlign:"center"
       }}
     >
       {KEYS.map(key => {
