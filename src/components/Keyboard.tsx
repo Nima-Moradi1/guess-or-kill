@@ -48,8 +48,8 @@ export default function Keyboard({
     <div
       style={{
         display: "grid",
-        gridTemplateColumns: "repeat(auto-fit, minmax(40px, 1fr))",
-        gap: ".2rem",
+        gridTemplateColumns: "repeat(auto-fit, minmax(30px, 1fr))",
+        gap: ".4rem",
       }}
     >
       {KEYS.map(key => {
